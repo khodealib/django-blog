@@ -16,4 +16,6 @@ class Article(models.Model):
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     status = models.CharField(max_length=1, choices=STATUS)
-    
+
+    def __str__(self) -> str:
+        return self.title
