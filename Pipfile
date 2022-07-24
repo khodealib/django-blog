@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 django = "4.0.6"
-pillow = "*"
+pillow = "9.2.0"
 
 [dev-packages]
 pylint = "*"
